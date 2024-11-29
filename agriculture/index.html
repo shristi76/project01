@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovate Agri</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+  
+        .search-container {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .search-box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            flex-wrap: nowrap; /* Ensure items stay in a single line */
+        }
+
+        #state-dropdown,
+        #city-dropdown {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 0 5px; /* Space between dropdowns */
+            width: 150px; /* Fixed width for dropdowns */
+        }
+
+        #analyze-btn {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        #analyze-btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .search-box {
+                flex-direction: column; /* Stack dropdowns vertically on small screens */
+                align-items: center; /* Center items */
+            }
+
+            #state-dropdown,
+            #city-dropdown {
+                width: 100%; /* Make dropdowns full width on smaller screens */
+                margin: 5px 0; /* Add margin for spacing */
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="hamburger-menu" onclick="toggleDropdown()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="dropdown-menu" id="dropdown-menu">
+            <div class="dropdown-item" onclick="navigateTo('settings')">Settings</div>
+            <div class="dropdown-item" onclick="navigateTo('news')">News</div>
+            <div class="dropdown-item" onclick="navigateTo('schemes')">Schemes</div>
+        </div>
+    </div>
+
+    <div class="header"></div>
+    <div class="body">
+        <div class="img">
+            <img src="croppp.jpg" class="src" alt="Background Image">
+        </div>
+        <div class="top-nav">
+            <span>bsbsnsshghuahj</span>
+            <div class="hamburger-menu" onclick="toggleMenu()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="nav-item" onclick="scrollToSection('home')">Home</div>
+            <div class="nav-item" onclick="scrollToSection('about')">About</div>
+            <div class="nav-item" onclick="scrollToSection('contact')">Contact</div>
+            <div class="nav-item" onclick="scrollToSection('language')">Language</div>
+        </div>
+
+        <!-- Search Box Container -->
+        <div class="search-container">
+            <h1>*INNOVATE-AGRI*</h1>
+            <div class="search-box">
+                <select id="state-dropdown" onchange="updateCityDropdown()">
+                    <option value="">Select State</option>
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                    <option value="Assam">Assam</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="Chhattisgarh">Chhattisgarh</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="Haryana">Haryana</option>
+                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                    <option value="Jharkhand">Jharkhand</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Manipur">Manipur</option>
+                    <option value="Meghalaya">Meghalaya</option>
+                    <option value="Mizoram">Mizoram</option>
+                    <option value="Nagaland">Nagaland</option>
+                    <option value="Odisha">Odisha</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Rajasthan">Rajasthan</option>
+                    <option value="Sikkim">Sikkim</option>
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Telangana">Telangana</option>
+                    <option value="Tripura">Tripura</option>
+                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                    <option value="Uttarakhand">Uttarakhand</option>
+                    <option value="West Bengal">West Bengal</option>
+                </select>
+                <select id="city-dropdown">
+                    <option value="">Select City</option>
+                </select>
+            </div>
+            <button id="analyze-btn" onclick="analyzeField()">Analyze</button>
+        </div>
+        
+        <!-- Weather Section -->
+        <div class="weather-section" id="weather-section">
+            <h2>Weather & Climate</h2>
+            <p id="weather-info">Loading weather data...</p>
+            <div class="demanded-crops">
+                <h2>Demanded Crops</h2>
+                <div class="crop-item">
+                    <h3>Wheat</h3>
+                    <p>Price Range: Rs276 - Rs335</p>
+                </div>
+                <div class="crop-item">
+                    <h3>Rice</h3>
+                    <p>Price Range: Rs310 - Rs402</p>
+                </div>
+                <div class="crop-item">
+                    <h3>Paddy</h3>
+                    <p>Price Range: Rs120 - Rs150</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+  
+    <div class="footer">
+        <div class="bottom-box">
+            <marquee behavior="scroll" direction="right">
+                Helpline number: +1-800-123-4567 , +2-895-763-5233 , +8-546-766-2376
+            </marquee>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        function updateCityDropdown() {
+            const stateDropdown = document.getElementById('state-dropdown');
+            const cityDropdown = document.getElementById('city-dropdown');
+
+            const cities = {
+                "Andhra Pradesh": ["Visakhapatnam", "Vijayawada", "Tirupati", "Guntur"],
+                "Arunachal Pradesh": ["Itanagar", "Pasighat", "Naharlagun"],
+                "Assam": ["Guwahati", "Dibrugarh", "Silchar", "Jorhat"],
+                "Bihar": ["Patna", "Gaya", "Bhagalpur", "Muzaffarpur"],
+                "Chhattisgarh": ["Raipur", "Bilaspur", "Durg"],
+                "Goa": ["Panaji", "Margao", "Mapusa"],
+                "Gujarat": ["Ahmedabad", "Surat", "Vadodara", "Rajkot"],
+                "Haryana": ["Gurgaon", "Faridabad", "Ambala"],
+                "Himachal Pradesh": ["Shimla", "Manali", "Dharamshala"],
+                "Jharkhand": ["Ranchi", "Jamshedpur", "Dhanbad"],
+                "Karnataka": ["Bengaluru", "Mysuru", "Mangalore"],
+                "Kerala": ["Thiruvananthapuram", "Kochi", "Kozhikode"],
+                "Maharashtra": ["Mumbai", "Pune", "Nagpur", "Nashik"],
+                "Manipur": ["Imphal", "Churachandpur", "Thoubal"],
+                "Meghalaya": ["Shillong", "Tura", "Jowai"],
+                "Mizoram": ["Aizawl", "Lunglei"],
+                "Nagaland": ["Kohima", "Dimapur"],
+                "Odisha": ["Bhubaneswar", "Cuttack", "Rourkela"],
+                "Punjab": ["Chandigarh", "Ludhiana", "Amritsar"],
+                "Rajasthan": ["Jaipur", "Udaipur", "Jodhpur"],
+                "Sikkim": ["Gangtok", "Namchi"],
+                "Tamil Nadu": ["Chennai", "Coimbatore", "Madurai"],
+                "Telangana": ["Hyderabad", "Warangal"],
+                "Tripura": ["Agartala", "Udaipur"],
+                "Uttar Pradesh": ["Lucknow", "Kanpur", "Agra"],
+                "Uttarakhand": ["Dehradun", "Haridwar"],
+                "West Bengal": ["Kolkata", "Siliguri", "Durgapur"]
+            };
+
+            const selectedState = stateDropdown.value;
+            cityDropdown.innerHTML = "<option value=''>Select City</option>"; // Reset city dropdown
+
+            if (selectedState) {
+                cities[selectedState].forEach(city => {
+                    const option = document.createElement('option');
+                    option.value = city;
+                    option.textContent = city;
+                    cityDropdown.appendChild(option);
+                });
+            }
+        }
+
+        async function fetchWeatherData(state, city) {
+            // Fetch weather data from an external API
+            const response = await fetch(`https://api.weatherapi.com/v1/current.json?key=YOUR_API_KEY&q=${city},${state}`);
+            const weatherData = await response.json();
+            return weatherData;
+        }
+
+        async function analyzeField() {
+            const stateDropdown = document.getElementById('state-dropdown');
+            const cityDropdown = document.getElementById('city-dropdown');
+            const weatherInfo = document.getElementById('weather-info');
+
+            const selectedState = stateDropdown.value;
+            const selectedCity = cityDropdown.value;
+
+            if (selectedState && selectedCity) {
+                const weatherData = await fetchWeatherData(selectedState, selectedCity);
+                weatherInfo.textContent = `Temperature: ${weatherData.current.temp_c}°C, Condition: ${weatherData.current.condition.text}`;
+            } else {
+                weatherInfo.textContent = "Please select both a state and a city.";
+            }
+        }
+    </script>
+</body>
+
+</html>

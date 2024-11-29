@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: black;
+    padding: 25px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+.body {
+    position: relative;
+    min-height: 100vh; /* Ensure body covers full height */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* .img {
+    width: 100%;
+    height: 100%;
+    /* background-image: url('croppp.jpg'); */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain */
+    
+     /* */ 
+   
+
+/* } */
+.img {
+    width: 100%;
+    height: 100vh; /* Sets the height to cover the entire viewport height */
+    background-image: url('croppp.jpg'); /* Use the background-image property */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+
+.top-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+.nav-item {
+    display: inline-block;
+    color: white;
+    padding: 14px 20px;
+    cursor: pointer;
+    font-size: 17px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-item:hover {
+    background-color: white;
+    color: black;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column; /* Stack search box and button vertically */
+    align-items: center;
+    position: fixed; /* Fixed position for top placement */
+    top: 257px; /* Distance from top */
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+    z-index: 1; /* Ensure it appears above other elements */
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 6px; /* Adjust border radius for corners */
+    background-color: white;
+    margin-bottom: 10px; /* Space between search box and analyze button */
+    width: 305px;
+}
+
+#search-input {
+    width: 325px;
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px 0 0 6px; /* Adjust border radius for the input */
+    outline: none;
+}
+
+#mic-btn {
+    background-color: #f4f8f5;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 0 6px 6px 0; /* Adjust border radius for the button */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mic-icon {
+    width: 20px;
+    height: 20px;
+}
+
+#mic-btn:hover {
+    background-color: #11130b;
+}
+
+#analyze-btn {
+    padding: 12px 24px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    background-color: #1464ba;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+#analyze-btn:hover {
+    background-color: #030202;
+}
+/* Chatbot Icon
+.chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; /* Make sure it's on top of other elements */
+/* } * */
+
+/* .chatbot-icon {
+    width: 60px; /* Adjust size as needed */
+    /* height: 60px; /* Adjust size as needed */
+    /* cursor: pointer; */
+/* } */ 
+
+/* Chatbot Popup */
+/* .chatbot-popup { */
+    /* display: none; /* Hidden by default */
+  
+    /* width: 300px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px; */
+    /* z-index: 1001; Ensure it's above the icon */ */
+/* } */ 
+/* 
+.chatbot-popup h2 {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+#chat-query {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+#send-query {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#send-query:hover {
+    background-color: #0056b3;
+} */
+.body {
+    position: relative;
+    padding: 20px;
+}
+
+.weather-section {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    width: 250px;
+    padding: 15px;
+    background-color: #3aa9f2;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(10, 4, 74, 0.2);
+}
+
+.weather-section h1 {
+    font-size: 18px;
+    color: #040505;
+    margin-bottom: 10px;
+}
+
+.weather-section p {
+    font-size: 16px;
+}
+/* Hamburger Menu Styles */
+.hamburger-menu {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.hamburger-menu .line {
+    width: 100%;
+    height: 2px;
+    background-color: #f7f1f1;
+    border-radius: 2px;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 35px;
+    right: 30;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px #fff5f51a;
+    z-index: 1000;
+}
+
+.dropdown-item {
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #4bc5ee;
+}
+.img {
+    width: 100%;
+    height: auto; /* Adjust height automatically based on the width */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img img {
+    width: 100%; /* Adjust image width to fit container */
+    height: auto; /* Maintain aspect ratio */
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header, .footer {
+    width: 100%;
+}
+
+.img {
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 768px) {
+    .body {
+        flex-direction: column;
+    }
+
+    .left-column {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .img {
+        width: 100%;
+    }
+}
+/* Add styles for the Demanded Crops section */
+.demanded-crops {
+    background-color: #154fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(233, 128, 128, 0.1);
+    margin: 20px 0;
+}
+
+.demanded-crops h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #fff5f5;
+}
+
+.crop-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #efe9e9;
+    border-radius: 4px;
+    background-color: #fcf8f8;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.crop-item:hover {
+    transform: scale(1.02);
+    background-color: #f3fef3;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.crop-item h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.crop-item p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: #000000;
+}
+
+

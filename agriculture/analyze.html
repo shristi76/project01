@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Based on Your Location</title>
+    <link rel="stylesheet" href="style1.css"> <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-image: url('t2.jpg'); /* Replace with your image path */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #eae5e5;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        td {
+            text-align: center;
+        }
+        .table-container {
+            margin-bottom: 40px;
+            background-color: rgba(255, 255, 255, 0.5); /* Increase transparency for better background visibility */
+            padding: 10px;
+            border-radius: 8px;
+        }
+        .best-crop-table {
+            margin: 0 auto; /* Center the table horizontally */
+            width: auto; /* Adjust the table width */
+            border: none; /* Remove table borders */
+        }
+        .best-crop-table th, .best-crop-table td {
+            border: none; /* Remove borders for the second table */
+            padding: 10px;
+        }
+        .best-crop-table th {
+            background-color: transparent; /* No background color for the header */
+        }
+        .best-crop-table td {
+            font-weight: bold; /* Make text bold */
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .footer button {
+            background: none;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 0 10px;
+        }
+        .footer button:hover {
+            color: #509ef2;
+        }
+        .footer i {
+            font-size: 24px;
+        }
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: #020a13;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .back-button:hover {
+            background: #30ec65;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Back Button -->
+    <button class="back-button" onclick="window.history.back()">
+        <i class="fas fa-arrow-left"></i> Back
+    </button>
+
+    <h1>BASED ON YOUR LOCATION</h1>
+
+    <!-- First Table -->
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Soil Type</th>
+                    <th>Nitrogen Amount in Soil</th>
+                    <th>Phosphorous Amount in Soil</th>
+                    <th>Potassium Amount in Soil</th>
+                    <th>Temperature</th>
+                    <th>Humidity</th>
+                    <th>pH Value in Soil</th>
+                    <th>Rainfall Amount</th>
+                    <th>Crop Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Sample Data for 9 Rows -->
+                <tr>
+                    <td>Desert soils</td>
+                    <td>23%</td>
+                    <td>72%</td>
+                    <td>84%</td>
+                    <td>19.02°C</td>
+                    <td>17.13%</td>
+                    <td>6.93</td>
+                    <td>79.97 mm</td>
+                    <td>Rs 3000-4000 per ton</td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Second Table -->
+    <div class="table-container">
+        <h2 style="text-align: center;">BEST-CROPS</h2>
+        <table class="best-crop-table">
+            <thead>
+                <tr>
+                    <!-- Create a header row for clarity -->
+                    <th>Crop</th>
+                    <th>Maize</th>
+                    <th>Millet</th>
+                    <th>Pulse</th>
+                    <th>Rice</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <!-- Values in a single row -->
+                    <td>Best Crops preference:</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Footer with Share and Print buttons -->
+    <div class="footer">
+        <button onclick="window.print()">
+            <i class="fas fa-print" title="Print"></i> Print
+        </button>
+        <button>
+            <i class="fas fa-share-alt" title="Share"></i> Share
+        </button>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,105 @@
+,state,city,soil type,nitrogen_soil,phosphorus_soil,potassium_soil,temperature,humidity,ph,rainfall,crop_1,crop_2,crop_3,crop_4
+1,Andhra Pradesh,nellore,red sandy,200-5000 kg\ha,10-20 kg/ha,150-300kg/ha,20°C-30 °C,60%-80%,6.0-7.5,700-1000mm,rice,groundnut,cotton,pulses
+2,Andhra Pradesh,guntur,black,200-400 kg/ha,10-20 kg/ha,300-500 kg/ha,20°C-45 °C,50%-80%,6.5-8.0,700-900mm,cotton ,chili,groundnut,pulses
+3,Andhra Pradesh,rajamunda,laterite,150-400 kg/ha,10-30 kg/ha,150-500 kg/ha,15°C-40 °C,60%-80%,5.5-7.5,1200-1500 mm,rice,oilseeds,sugarcane,cotton
+4,Arunachal Pradesh,pasighat,alluvial,150-400 kg/ha,10-40 kg/ha,150-500 kg/ha,15°C-30 °C,70%-90%,5.5-7.0,2000-3000mm,cardamom,ginger,rice,pulses
+5,Arunachal Pradesh,roing,loamy,150-400 kg/ha,10-40 kg/ha,150-500 kg/ha,10°C-30 °C,70%-90%,5.5-7.0,2000-3000mm,maize,rice,ginger,cardamom
+6,Arunachal Pradesh,tawang,alluvial,100-350 kg/ha,10-30 kg/ha,150-500 kg/ha,10°C-20 °C,60%-80%,5.0-6.5,1000-1500mm,potatoes,green beans,peas,cabbage
+7,Arunachal Pradesh,ziro,loamy,150-400 kg/ha,10-40 kg/ha,150-500 kg/ha,10°C-30 °C,70%-85%,5.5-7.0,1500-2000mm,cardamom,ginger,rice,pulses
+8,Assam,jorhat,clay,150-400 kg/ha,20-40 kg/ha,200-500 kg/ha,10°C-35 °C,70%-90%,5.5-6.5,2000-2500mm,sugarcane,tea,rice,pulses
+9,Assam,dibrugarh,loamy,150-400 kg/ha,20-40 kg/ha,200-300 kg/ha,15°C-35 °C,65%-89%,5.7-6.4,2000-2500 mm,rice,pulses,sugarcane,tea
+10,Assam,guwahati,alluvial,160-400 kg/ha,25-45 kg/ha,200-500 kg/ha,10°C-35 °C,70%-95%,5.5-6.5,1800-2200mm,tea,rice,sugarcane,pulses
+11,Assam,nagaon,clay,150-400 kg/ha,24-45 kg/ha,200-400 kg/ha,15°C-30 °C,75%-90%,5.0-6.5,1800-2000mm,rice,sugarcane,tea,cabbage
+12,Bihar,patna,alluvial,150-400 kg/ha,20-45 kg/ha,200-500 kg/ha,10°C-40 °C,60%-90%,5.5-7.0,1000-1200 mm,maize,oilseeds,jute,groundnut
+13,Bihar,bhagalpur,loamy,150-300 kg/ha,20-45 kg/ha,200-400 kg/ha,10°C-35 °C,65%-90%,5.5-7.5,1000-1500mm,cotton,banana,groundnut,maize
+14,Bihar,begusarai,alluvial,150-350 kg/ha,20-45 kg/ha,200-500 kg/ha,10°C-40 °C,60%-90%,5.5-6.5,1000-1500mm,mustard oil,maize,jute,guava
+15,Bihar,gaya,clay,150-300 kg/ha,25-45 kg/ha,200-400 kg/ha,15°C-45 °C,70%-85%,6.0-7.5,1000-1200mm,cotton,maize,banana,groundnut
+16,Bihar,muzaffarpur,loamy,200-450 kg/ha,25-40 kg/ha,200-400 kg/ha,15°C-40 °C,65%-85%,5.5-7.0,1000-1500mm,oilseeds,peanuts,jute,pulses
+17,Chhattisgarh,Raipur,sand,113-286 KG/HA,20.51-93.32 kg/ha,342 kg /ha,25°C-32° C,84-98%,5.2-6.9,800-1090mm,rice,wheat,millets,pulses
+18,Chhattisgarh,Rajnandgaon,clay,240-480 KG/HA,5.37–39.42 kg/ha,85- 953 kg /ha,26°C-32 °C,79-86%,5.5-7.3,1050-1200mm,maize,soybean,chickpea,groundnut
+19,Goa,Ponda,clay,56.4–621.6 KG/HA-,2.6–28.9 kg/ha,23.6 - 232.5 kg /ha,17°C-33.9 °C,46-73.8%,5.5-6.5,2000-3000mm,rice,cahsew,coconut,mango
+20,Goa,Mapusa,sand, 211.2-76.9 KG/HA., 12.3 - 12.4 kg/ha,23.6 - 232.5 kg /ha,24°C-30 °C,70-95%,5.5-6.7,2000-3000mm,pineapple,jackfruit,arecanut,banana
+21,Gujarat,Ahemdabad,sand,78.6 - 376.3 KG/HA,18.61 to 69.57 kg/ha,517.44 kg/ha,26°C-35°C,23-88%,5.7-6.8,1000-1500mm,millet,bajra,maize,paddy
+22,Gujarat,Visavadar,sand,78.6 - 376.3 KG/HA,11 kg/ha,"343.88 kg/ha 
+",28°C-32° C,43-96.7%,6.1-9.26,1500-2000mm,groundnut,cotton,wheat,mustard
+23,Gujarat,Junagadh,silt,322 KG/HA,22 kg/ha,"418.88 kg/ha 
+",28°C-38°C,13.5-75.1%,7.67-7.92,2000-2500mm,sesame,castor,tur,sugarcane
+24,Haryana,Hisar,loam,0.03-0.07 KG/HA,14.60 kg /ha,44 -867 kg/ha,22°C-29°C,19-49%,7.5-8.5,1200 - 1300 mm,wheat,rice,sugarcane,cotton
+25,Haryana,Gurugram,sand,0.20 KG/HA,7.45 to 30.10 kg /ha, 148 kg/ha ,24°C-31°C,32-49%,7.47-8.27,1200 - 1400 mm,rice,sugarcane,cotton,barley
+26,Haryana,Rewari,loam,0.10-0.17 KG/HA,11–22 kg/ha,62.2–326.5 kg/ha,22°C-30°C,28-49%,6.8-9.8,1250 - 1300 mm,mustard oil,jowar,bajra,gram
+27,Haryana,Rohtak,clay,0.10-0.17 KG/HA,7.45 - 30.10 kg/ha,044 -867 kg/ha,22°C-29°C,32-46%,7.47-8.18,1291 - 1300 mm,wheat,rice,sugarcane,cotton
+28,Haryana,Panchkula,clay,0.22-1.22 KG/HA,14.60 kg/ha,44 -867 kg/ha,24°C-31°C,23-32%,7.78-8.27,1400 - 1600 mm,oilseeds,gram,barley,corn
+29,Haryana,Karnal,sand,108-206 KG/HA,7.45 to 30.10 kg /ha,44 -867 kg/ha,24°C-28°C,28-49%,6.5-8.5,1200 - 1400 mm,millet,gram,groundnut,pulses
+30,Himachal Pradeh,Manali,clay,0.12-0.34%, 13.5 -124.0 kg /ha,70.56–448 kg/ha,17°C-24°C,68-90%,8.7-9.8,1200 - 1300 mm,apples,wheat,barley,maize
+31,Himachal Pradesh,Dharmsala,silt,0.23 KG/HA,37.1 kg /ha,93.42 kg/ha,22°C-26°C,44-68%,5.15-7.32,1200 - 1400 mm,rice,potato,barley,gram
+32,Himachal Pradesh,Parli,sand,75-125 KG/HA,54.78 to 65.71 kg ha,289 kg /ha,12°C-40 °C,46-90%,6.2-7.86,1250 - 1300 mm,maize,wheat,Pulses,paddy
+33,Jharkhand,Bokaro,laterite,200 - 400 kg/ha,20 - 40 kg/ha,100 - 200 kg/ha,20°C - 35°C,50% - 80%,6.5 - 7.5,1291 - 1300 mm,Paddy,Millets,Pulses,Wheat
+34,Jharkhand,Ranchi,Alfisols,150 - 300 kg/ha,15 - 30 kg/ha,80 - 150 kg/ha,15°C - 30°C,60% - 80%,6.0 - 7.0,1400 - 1600 mm,Paddy,Maize,Arhar,Urad
+35,Jharkhand,Hazaribagh,sandy loam,180 - 320 kg/ha,18 - 35 kg/ha,90 - 170 kg/ha,18°C - 32°C,55% - 75%,6.0 - 7.0,1200 - 1400 mm,Wheat,Mustard,Gram,Barley
+36,Jharkhand,Deoghar,Entisols,100 - 200 kg/ha,20 - 40 kg/ha,100 - 200 kg/ha,15°C - 30°C,60% - 80%,6.5 - 7.5,1200 - 1300 mm,Paddy,Wheat,Maize,Pulses
+37,Jharkhand,Jamshedpur,laterite,200 - 300 kg/ha,20 - 40 kg/ha,100 - 200 kg/ha,20°C - 40°C,50% - 80%,5.5 - 6.5,1200 - 1400 mm,Paddy,Wheat,Oilseeds,Pulses
+38,Jharkhand,Dhanbad,Entisols,58 - 785 kg/ha,1.0 - 15.6 kg/ha,49 - 952 kg/ha,8.4°C - 43°C,60% - 90%,4.4 - 7.2,1250 - 1300 mm,Paddy,Finger,Millet,Mustard
+39,Karnataka,Hubli-Dharwad,red sandy,200 - 300 kg/ha,20 - 40 kg/ha,100 - 200 kg/ha,20°C - 35°C,50% - 80%,6.5 - 7.5,700 - 900 mm,Cotton,Sugarcane,Peanuts,Groundnut
+40,Karnataka,Belgaum,Black,100 - 200 kg/ha,10 - 30 kg/ha,150 - 300 kg/ha,15°C - 35°C,40% - 85%,6.5 -7.5,700 - 1000 mm,Sugarcane,Grapes,Maize,Pulses
+41,Karnataka,Mysore,Black,150 - 300 kg/ha,10 - 25 kg/ha,100 - 300 kg/ha,16°C - 38°C,45% - 85%,6.0 - 7.0,750 - 900 mm,Paddy,Sugarcane,Tobacco,Ragi
+42,Kerala,Palakkad,loam,200 - 300 kg/ha,10 - 25 kg/ha,100 - 300 kg/ha,15°C to 35°C,60% - 85%,6.0 -7.5,700 - 1000 mm,Rice,Coconut,Groundnut,Maize
+43,Kerala,Kottayam,clay,150 - 250 kg/ha,10 - 20 kg/ha,150 - 300 kg/ha,15°C to 30°C,70% - 85%,6.0 - 7.0,2000 - 2500 mm,Rubber,Coconut,Rice,Spices
+44,Kerala,Thrissur,laterite,150 - 250 kg/ha,10 - 25 kg/ha,150 - 300 kg/ha,20°C to 35°C,70% - 90%,5.5 - 7.0,2000 - 3000 mm,Rice,Rubber,Spices,Banana
+45,Maharashtra,Nashik,black,150 - 300 kg/ha,8 - 23 kg/ha,160 - 400 kg/ha,10°C - 40°C,40% - 70%,6.0 -7.5,700 - 1200 mm,Grapes,Onions,Tomatoes,Cereals
+46,Manipur,Imphal,alluvial,200 - 350 kg/ha,10 -20 kg/ha,100 - 300 kg/ha,5°C - 30°C,70% - 80%,5.5 - 7.0,1200 - 1800 mm ,Rice,Leafy Greens,Pulses,Fruits
+47,Manipur,Thoubal,alluvial,200 - 300 kg/ha,12 - 22 kg/ha,170 - 350 kg/ha,10°C - 35°C,70% - 85%,5.5 -7.0,1000 - 1500 mm,Fruits,Rice,Pulses,Vegetables
+48,Manipur,Bishnupur,alluvial,250 - 340 kg/ha,15 - 25 kg/ha,150 - 280 kg/ha,15°C - 35°C,65% - 75%,5.8 -6.9,1200 - 1500 mm,Black gram,Tubers,Oranges,Banana
+49,Manipur,Churachandpur,alluvial,260 - 350 kg/ha,14 - 22 kg/ha,150 - 250 kg/ha,10°C - 30°C,75% - 80%,5.7 - 6.7,1200 - 1800 mm,Maize,Pulses,Oranges,Pineapples
+50,Manipur,Ukhrul,alluvial,250 - 330 kg/ha,10 - 20 kg/ha, 130 - 310 kg/ha,5°C - 25°C,65% - 75%,5.5 - 6.5,1500 - 2000 mm,Millets,Lentils,Peaches,Legumes
+51,Meghalaya,Shillong,red,500 - 2000 kg/ha,25 - 125 kg/ha,200 - 500 kg/ha,2°C - 25°C,60.5% - 99.8%,3.83 - 5.38,386.08 - 2290 mm,Potatos,Pineapples,Oranges,Ginger
+52,Meghalaya,Jowai,"sand, clay",400 - 1800 kg/ha,20 - 120 kg/ha,150 - 450 kg/ha,4°C - 20°C,65% - 81%,4.1 - 5.6,2623 - 7695 mm,Rice,Maize,Black Pepper,Turmeric
+53,Meghalaya,Tura,red,450 - 1900 kg/ha,30 - 140 kg/ha,180 - 500 kg/ha,13°C - 32°C,72% - 87%,5.5 - 7,3757.8 - 7584.5 mm,Pineapples,Betel nuts,Lemon,Areca nuts
+54,Meghalaya,Cherrapunji,"red, loam, laterite",350 - 1700 kg/ha,15 - 110 kg/ha,120 - 400 kg/ha,5°C - 25°C,75% - 83%,4.5 - 6,6807 - 26467 mm,Ginger,Oranges,Betel leaf,Pineapples
+55,Meghalaya,Nongstoin,red,400 - 1800 kg/ha,20 - 120 kg/ha,150 - 450 kg/ha,4°C - 33°C,63% - 97%,3.97 - 5.98,1200 - 3800 mm,Rice,Maize,Pineapples,Potatos
+56,Mizoram,Aizawl,colluvial,300 - 1600 kg/ha,25 - 130 kg/ha,140 - 400 kg/ha,3.7°C - 36.7°C,29.7% - 100%,4.56 - 6.08,2000 - 3500 mm,Paddy,Mustard,Sugarcane,Potatos
+57,Mizoram,Lunglei,"colluvial, alluvial",250 - 1500 kg/ha,20 - 120 kg/ha,130 - 380 kg/ha,8°C - 32°C,76.2% - 86.5%,5.91 t-8.3,2500 - 3500 mm,Paddy,Banana,Cabbage,Sesamum
+58,Mizoram,Saiha,"colluvial, alluvial",200 - 1400 kg/ha,15 - 110 kg/ha,120 - 350 kg/ha,9°C - 35°C,41% - 99%,6 - 7.5,13.22 - 584.59 mm,Rice,Bean,Onion,Banana
+59,Mizoram,Champhai,"colluvial, clay, loam",220 - 1300 kg/ha,18 - 100 kg/ha,110 - 330 kg/ha,4.1°C - 32.5°C,25.8% - 100%,4.99 - 5.92,2216 - 3000 mm,Rice,Maize,Tomatoes,Potatos
+60,Mizoram,Kolasib,hapludults,230 - 1350 kg/ha,20 - 105 kg/ha,120 - 340 kg/ha,5.19°C - 33.98°C,79% - 100%,4.5 - 6,852 - 3000 mm,Paddy,Maize,Tapioca,Oranges
+61,Mizoram,Serchhip,"red, laterite",210 - 1250 kg/ha,17 - 95 kg/ha,115 - 325 kg/ha,15°C - 27°C,78% - 82%,6.9 - 8.3,1486.5 - 2521.8 mm,Paddy,Pineapples,Oil Palm,Sugarcane
+62,Nagaland,Kohima,"red, clay",200 - 1200 kg/ha,15 - 90 kg/ha,100 - 310 kg/ha,17°C - 25°C,70% - 95%,4.38 - 5.96,1800 - 2500 mm,Rice,Maize,Chilli,Pumpkin
+63,Nagaland,Dimapur,"clay, loam",190 - 1150 kg/ha,13 - 85 kg/ha,95 - 300 kg/ha,16°C - 27°C,43.2% - 99.9%,4.5 - 6.0,712.58 - 1012.5 mm,Paddy,Mustard,Linseed,Pea
+64,Nagaland,Mokokchung,red,180 - 1100 kg/ha,12 - 80 kg/ha,90 - 290 kg/ha,9.2°C - 33.1°C,37.6% - 99.9%,4.76 - 6.16,1600 - 2500 mm,Rice,Maize,Millets,Tapioca
+65,Nagaland,Wokha,"clay, loam",170 - 1050 kg/ha,10 - 75 kg/ha,85 - 280 kg/ha,16.1°C - 32°C,73% - 88%,4.5 - 5.5,2000 - 2500 mm,Oranges,Passion fruit,Plum,Bananas
+66,Odisha,Sambalpur,Alluvial,100- 200kg/ha,10 - 20kg/ha,100 - 200kg/ha,20°C-35°C,60% - 80%,6 - 7,800mm - 1200mm,rice,cotton,Pulses,Oilseeds
+67,Odisha,Cuttack,Alluvial,100 - 200kg/ha,10 - 20kg/ha,100 - 200kg/ha,20°C-35°C,60% - 80%,6 -7,800mm - 1200mm,wheat,Sugarcane,Maize,Pulses
+68,Punjab,Ludhiana,Alluvial,100 - 200kg/ha,10 - 20kg/ha,100 - 200kg/ha,20°C-35°C,60% - 80%,6 - 7,800mm - 1200mm,potatoes,Tomatoes,wheat,rice
+69,Punjab,Amritsar:,Alluvial,100 - 200kg/ha,10 - 20kg/ha,100 - 200kg/ha,20°C-35°C,60% - 80%,6 - 7,800mm - 1200mm,Wheat,sugarcane,vegetables,pulses
+70,Punjab,Jalandhar,Alluvial,100 - 200kg/ha,10 - 20kg/ha,100 - 200kg/ha,20°C-35°C,60% - 80%,6 - 7,800mm - 1200mm,Sugarcane,maize,wheat,tomatoes
+71,Punjab,"Patiala
+",Alluvial,100 - 200kg/ha,40 - 60kg/ha,100 - 200kg/ha,20°C-35°C,50% - 80%,6 .5 - 7.5,400mm - 600mm,wheat,potatoes,maize,sugarcane
+72,Punjab,Bathinda,Alluvial,100 - 200kg/ha,40 - 60kg/ha,20- 40kg/ha,20°C-35°C,40% - 60%,7 - 8.5,300mm - 500mm,Cotton,barley,kinno,guava
+73,Punjab,Hoshiarpur,loam,100 - 200kg/ha,40 - 60kg/ha,100 - 200kg/ha,20°C-35°C,60% - 80%,6.5 - 7.5,800mm - 1000mm,citrus,mangoes,pulses,rice
+74,Rajasthan,Jaipur,sandy,20-60kg/ha,20kg/ha - 40kg/ha,10- 30kg/ha,25°C - 40°C,30% - 50%,7 - 8.5,400 mm - 600mm,millets ,pulses,oilseeds,fruits
+75,Rajasthan,Jodhapur,sandy,20-60kg/ha,20kg/ha - 40kg/ha,10- 30kg/ha,25°C - 40°C,30% - 50%,7 - 8.5,400 mm - 600mm,Pomegranate,ber,millets ,pulses
+76,Rajasthan,sikar,sandy,20-60kg/ha,20kg/ha - 40kg/ha,10- 30kg/ha,25°C - 40°C,30% - 50%,7 - 8.5,400 mm - 600mm,Date palm,"
+Jackfruit",oilseeds,millets
+77,Sikkim,Gangtok,sandy,100 - 200kg/ha,20kg/ha - 40kg/ha,50kg/ha - 100kg/ha,15°C-25°C,70% - 90%,6 - 7,1500mm - 3000mm,Cardamom,Ginger,Oranges,tea
+78,Sikkim,Namchi,loam,100 - 200kg/ha,20kg/ha - 40kg/ha,50kg/ha - 100kg/ha,20°C - 30°C,70% - 90%,6 - 7,1500mm - 3000mm,maize,paddy,cardamon,oranges
+79,Sikkim,Mangan,loam,100 - 200kg/ha,20kg/ha - 40kg/ha,50kg/ha - 100kg/ha,20°C - 30°C,70% - 90%,6 - 7,1500mm - 3000mm,Paddy,cardamon,Maize,peaches
+80,Sikkim,Singtam,loam,100 - 200kg/ha,20kg/ha - 40kg/ha,50kg/ha - 100kg/ha,20°C - 30°C,70% - 90%,6 - 7,1500mm - 3000mm,oranges,pear,paddy,maize
+81,Sikkim,rangpo,loam,100 - 200kg/ha,20kg/ha - 40kg/ha,50kg/ha - 100kg/ha,20°C - 30°C,70% - 90%,6 - 7,1500mm - 3000mm,plum,Avacado,maize,paddy
+82,Tamil Nadu,Salem,Red,100 - 200kg/ha,20kg/ha - 40kg/ha,50kg/ha - 100kg/ha,20°C - 30°C,60% - 80%,6 - 7,800mm - 1200mm,mangoes,turmeric,Tapioca,Groundnut
+83,Tamil Nadu,Madurai,Black Soil,100 - 200kg/ha,20kg/ha - 40kg/ha,50kg/ha - 100kg/ha,20°C - 30°C,60% - 80%,6 - 7,700mm - 1000mm,oilseeds,Cotton,Sugarcane,Pulses
+84,Telengana,Warangal,Red Soil,200-250 kg/ha,20-30kg/ha,200-250 kg/ha,25°C - 40°C,50% -70%,6-7.5,950 mm,Rice,Cotton,Mangoes,Turmeric
+85,Telangana,Karimnagar,Red Soil,100-200 kg/ha,20-40 kg/ha,100-200 kg/ha,20°C - 30°C,40%-60%,6-7.5,800mm-1000mm,Rice,Cotton,Turmeric,Maize
+86,Telangana,Nizamabad,Black Soil,200-300 kg/ha,20-40 kg/ha,200-400 kg/ha,15°C-45°C,50%-80%,7-8,900mm-1000mm,Rice,Maize,Cotton,Turmeric
+87,Tripura,Agartala,Red Laterite Soil,100-200 kg/ha,10-30 kg/ha,200-400 kg/ha,20°C - 30°C,70%-80%,5.5-7.5,2200mm-2500mm,Rice,Tea,Rubber,Pineapple/Oranges
+88,Tripura,Udaipur,Red Laterite Soil,1000-2000 kg/ha,5-10kg/ha,200-500 kg/ha,10°C-35°C,70%-90%,5.5-7.5,2500mm-3000mm,Rice,Pineapple,Rubber,Tea
+89,Uttar Pradesh,Meerut,Fertile Alluvial Soil,100-200 kg/ha,20-40 kg/ha,100-200 kg/ha,5°C-40°C,30%-80%,6.5-8.5,700mm-800mm,Wheat,Sugarcane,Rice,Maize
+90,Uttar Pradesh,Bareilly,Old Alluvial Soil,100-200kg/ha,20-40 kg/ha,100-200kg/ha,5°C-40°C,30%-80%,6.5-8.5,800mm-900mm,Wheat,Sugarcane,Rice,Maize
+91,Uttar Pradesh,Gorakhpur,Old Alluvial Soil,100-200 kg/ha,20-40 kg/ha,100-200 kg/ha,5°C-40°C,40%-80%,6.5-8.5,1200mm-1400mm,Rice,Sugarcane,Maize,Wheat
+92,Uttar Pradesh,Kanpur,Old Alluvial Soil,100-200 kg/ha,20-40 kg/ha,100-200 kg/ha,5°C-40°C,40%-80%,6.5-8.5,900mm-1100mm,Wheat,Sugarcane,Rice,Maize
+93,Uttar Pradesh,Varanasi,Old Alluvial Soil,100-200 kg/ha,20-40kg/ha,100-200 kg/ha,5°C-40°C,40%-80%,6.5-8.5,1000mm-1200mm,Rice,Wheat,Sugarcane,Lentils
+94,Uttar Pradesh,Allahabad,Old Alluvial Soil,100-200 kg/ha,20-40 kg/ha,100-200 kg/ha,5°C-45°C,40%-80%,6.5-8.5,1000mm-1200mm,Rice,Wheat,Sugarcane,Lentils
+95,Uttar Pradesh,Lucknow,Old Alluvial Soil,100-200 kg/ha,20-40 kg/ha,100-200 kg/ha,5°C-45°C,40%-80%,6.5-8.5,1000mm-1200mm,Rice,Wheat,Sugarcane,Lentils
+96,Uttarakhand,Dehradun,Alluvial Soil,100-150 kg/ha,20-40 kg/ha,100-150 kg/ha,5°C-35°C,50%-80%,6.5-7.5,2200mm,Rice,Wheat,Maize,Soyabean
+97,Uttarakhand,Haridwar,Sandy loam Soil,100-150 kg/ha,20-40 kg/ha,100-150 kg/ha,5°C-45°C,50%-80%,6.5-7.5,1700mm,Rice,Wheat,Sugarcane,Vegetables
+98,West Bengal,Malda,Terai Alluvial Soil,200-250 kg/ha,20-25 kg/ha,200-250 kg/ha,15°C-35°C,60%-80%,6.5-7.5,1200mm-1400mm,Mangoes,Jute,Sugarcane,Rice
+99,West Bengal,Bardhaman,Red & Lateritic Soil,100-150 kh/ha,30-50kg/ha,150-200 kg/ha,20°C-38°C,60%-80%,6-6.5,1200mm-1400mm,Rice,Sugarcane,Wheat,Maize
+100,West Bengal,Murshidabad,Alluvial Soil,80-120 kg/ha,20-40 kg/ha,100-150 kg/ha,20°C-38°C,60%-80%,6 - 7,1200mm-1400mm,Rice,Sugarcane,Wheat,Maize
